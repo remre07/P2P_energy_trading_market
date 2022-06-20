@@ -1,0 +1,6 @@
+function y = fcn()
+    file = fopen('house_1.txt','r');
+    formatSpec = '%f';
+    A = fscanf(file,formatSpec);
+    y= A;
+end
